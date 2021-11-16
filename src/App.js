@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 
 import Waveform from "./Waveform";
-import PlayList from "./PlayList";
 
-// const url = "https://www.mfiles.co.uk/mp3-downloads/gs-cd-track2.mp3";
 
 const tracks = [
   {
@@ -21,13 +19,7 @@ export default function App() {
   return (
     <div className="App">
       <Waveform url={selectedTrack.url} />
-      {/* <PlayList
-        tracks={tracks}
-        selectedTrack={selectedTrack}
-        setSelectedTrack={setSelectedTrack}
-      /> */}
-      <br />
-      {/* <p>Wavesurfer.js with React.JS</p> */}
+    
     </div>
   );
 }
